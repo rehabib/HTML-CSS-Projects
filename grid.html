@@ -1,0 +1,41 @@
+/* to create perfectly aligned horizontal layout we use grid*/
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid practice</title>
+    </head>
+    <body>
+        <div style="
+        display:grid;
+        margin-bottom:10px;
+        grid-template-columns:50px 1fr 75px;
+        ">
+            <div style="background-color:aqua";>col1</div>
+            <div style="background-color:pink";>col2</div>  
+            
+            <div style="background-color:aqua";>col3</div>
+            
+            
+        </div>
+        <div style="
+        display:grid;
+        column-gap:20px;
+        row-gap:10px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        ">
+            
+            <div style="background-color:pink";>col1</div>  
+            <div style="background-color:pink";>col2</div> 
+            <div style="background-color:pink";>col3</div> 
+            <div style="background-color:pink";>col4</div> 
+            <div style="background-color:pink";>col1</div>  
+            <div style="background-color:pink";>col2</div> 
+            <div style="background-color:pink";>col3</div> 
+            <div style="background-color:pink";>col4</div> 
+            
+            
+            
+            
+        </div>
+    </body>
+</html>
